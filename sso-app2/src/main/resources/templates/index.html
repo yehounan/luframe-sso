@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>app2首页</title>
+</head>
+<body>
+<div>
+    <H3>登录成功！</H3>
+    <p th:text="'hello, ' + ${username} + '!'"/>
+    <br>
+    <a href="http://www.sso.com:9003/logout">退出</a>
+</div>
+</body>
+</html>

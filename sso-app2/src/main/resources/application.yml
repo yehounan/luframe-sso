@@ -1,0 +1,16 @@
+server:
+  port: 9002
+
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    check-template-location: true
+    suffix: .html
+    encoding: UTF-8
+    servlet.content-type: text/html
+    mode: HTML5
+    cache: false
+
+sso:
+  serverUrl: http://www.sso.com:9003
+  clientUrl: http://www.app2.com:9002
